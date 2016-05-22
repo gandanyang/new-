@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>JQuery slideshow</title>>
+	<style>
+*{margin: 0;padding: 0;
+ul,ol{list-style: none;}
+.slideShow{position: relative;width: 2000px;}
+.slideShow ul li{float: left;width: 340px}
+.slideShow .nav{text-align: center;position: absolute;right: 10px;bottom: 10px;font-size: 12px;line-height: 18px;}
+.slideShow .nav span{ -webkit-user-select:none; float: left;cursor: pointer;border-radius: 9px;display: inline-block;width: 18px;height: 18px;background: rgba(0,0,0,0.7);margin-left: 2px;color: #fff;opacity: 0.5;}
+.slideShow .nav span.active{opacity: 1;}
+}
+	</style>>
+</head>
+<body>
+	<div class="slideShow">
+		<ul>
+			<li><a href="#"><img src="imgages/01.jpg"alt=""></a></li>
+			<li><a href="#"><img src="imgages/02.jpg"alt=""></a></li>
+			<li><a href="#"><img src="imgages/03.jpg"alt=""></a></li>
+			<li><a href="#"><img src="imgages/04.jpg"alt=""></a></li>
+		</ul>>
+		<div class="nav">
+			<span class="active">1</span>>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+		</div>>
+	</div>>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/main.js"></script>
+</body>>
+</html>

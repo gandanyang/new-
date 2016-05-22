@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="shortcut icon" src="images/favicon28a2f7.ico" type="image/x-icon"/>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="wxstyle.css">
+	<title>微信网页版</title>
+</head>
+<body>
+<div class="logo">
+	<i class="web_wechat_login_logo"></i>
+</div>
+<div id="content">
+	<div class="qrode" ng-class="{hide: isScan}">
+		<img src="images/gdzM1P-LNQ==.jpg" width="276px" height="276px">
+		<p>扫描二维码登录微信</p>
+		<div class="extension">
+		<div class="content1">
+				<i class="web_wechat_login_logo"></i>
+				<h4 class="title">登录手机微信</h4>
+				<p class="desc">手机上<a href="http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_download_list&amp;lang=zh_CN" target="_blank" class="ng-scope">安装</a>并登录微信</p>
+		</div>
+		<div class="content2">
+				<i class="icon web_wechat_login_scan_icon"></i>
+				<h4 class="title">进入扫一扫</h4>
+				<p class="saf">从"发现",进入"扫一扫",扫码登录微信网页版</p>
+		</div>
+		</div>
+	</div>
+<div class="avatar" ng-class="{show: isScan}">
+                <img class="img" mm-src="" alt="" src="https://res.wx.qq.com/zh_CN/htmledition/v2/images/img28a2f7.gif">
+                <h4 class="sub_title">扫描成功</h4>
+                <p class="tips">请在手机上点击确认以登录</p>
+                <a href="javascript:;" ng-click="isScan = false;" class="action">返回二维码登录</a>
+</div>
+</div>
+<div class="content-left" display="block">
+            <a ng-if="isWindows" href="http://weixin.qq.com/cgi-bin/readtemplate?t=win_weixin&amp;platform=wx&amp;lang=zh_CN" target="_blank" class="ng-scope">微信PC版</a><span ng-if="isWindows" target="_blank" class="sep ng-scope"></span>
+            <a class="lang-item" href="?lang=zh_CN">中文</a>
+            <span class="sep"></span>
+            <a class="lang-item" href="?lang=zh_TW">繁体</a>
+            <span class="sep"></span>
+            <a class="lang-item" href="?lang=en_US">English</a>
+</div>
+
+<div class="copyright">
+	<p class="desc">© 1998 - 2016 Tencent Inc. All Rights Reserved</p>
+</div>
+</body>
+</html>
