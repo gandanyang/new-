@@ -1,0 +1,153 @@
+ @charset "utf-8"
+ body,head{
+ 	width: 100%;
+ 	font-family: "Microsoft Yahei";
+ 	background-color: #fff;
+ }
+ /*顶部导航*/
+ 	.header-nav{
+	 	 margin: 60px auto auto 360px; 
+	 	 display:block;
+	 	 border: 1px solid #ddd;
+ 	}
+  /*所有课程标签*/
+  .header-nav .allSubjects{
+	  	width: 229px;
+	  	height: 53px;
+	  	margin-right:21px;
+	  	background-color: #228B22; 
+	  	text-align: center;
+	  	line-height: 51px;
+	  	font-size: 17px;
+	  	color: #fff;
+	  	float: left;
+  }
+  .header-nav .homepage,.courseSystem,.micro-specialty,.downloadapps,.mystudy{
+	  	padding: 0px 18px;
+  	 	line-height: 51px;    
+  	 	cursor: pointer;
+	    display: block;
+	    float: left;
+	    color: #333;
+	    font-size: 16px;
+  }
+  	.catalogue{
+  		width: 100%;
+  		height: 380px;
+  		display: block;
+  	}
+  	.catalogue .left{
+	  	margin: 5px 50px 10px 360px;
+	  	position: absolute;
+	  	top: 190px;
+	  	display: block;
+	  	width: 210px;
+	  	padding: 0px 10px;
+	  	background-color: #888;
+  	}
+.catalogue .left a{
+		text-decoration:none;
+		font-size: 12px;
+		color: #ffffff;
+		cursor: auto;
+}
+.catalogue .left a:visited{
+		color:#ffffff;
+		text-decoration:none;
+		font-weight:bold;
+}
+.catalogue .left a:hover{
+		color:#CF0000; 
+		text-decoration:underline;
+		font-weight:bold;
+}
+.catalogue .left dl{
+	  	text-align: left;
+		display: block;
+		width: 210px;
+		border-bottom: 1px solid #ddd;
+}
+ 	.catalogue .left dl:hover{
+		background-color: #999;
+ 	}
+  	.catalogue .left dl dt{
+	  	text-align: left;
+	    display: block;
+	    color: #fff;
+	    font-size: 13px;
+	    line-height: 1px;
+	    padding: 20px 0px 14px 0px;
+  	}
+  	.catalogue .left dl dd{
+	  	text-align: left;
+	  	display:inline-block;
+		color: #fff;
+	    font-size: 12px;
+	    margin-left: 0px;
+	    margin-right: 9px;
+	    line-height: 1px;
+  	}
+  	.catalogue .banner{
+  		position: absolute;
+  		top: 200px;
+  		left: 610px;
+		background-color: #abcdef;
+		width: 30%;
+		height: 360px;
+		display: block;
+  	}
+  	.content{
+  		width: 100%;
+  		display: block;	
+  	}
+  	.content .freeClass{
+  		position:relative; 
+  		top: 50px;
+  		align:center;
+  		width: 100%;
+  		height: 260px;
+  		display: block;
+  		margin: 10px 300px;
+  	}
+  	.content .freeClass .more{
+  		float: right;
+  	}
+  	.content .freeClass h2{
+  		text-align: left;
+  		margin-left: 35px;
+  	}
+  	.content .freeClass ul{
+  		
+  		display: block;
+  		width: 100%;
+  	}
+  	.content .freeClass li{
+  		margin-right: 10px;
+  		float: left;
+  		display: block;
+		  height: 185px;
+		  list-style: none;
+  	}
+    .content .freeClass ul li a img{
+      width: 225px;
+      transition: width 0.5s;
+      -webkit-transition: width  0.5s;
+    }
+    .content .freeClass ul li a img:hover{
+      width:104%;
+      height: 104%;
+    }
+  	.content .classInGreatDemands{
+  		position: relative;
+  		margin: 50px auto;
+  		width: 64%;
+  		height: 520px;
+  	}
+  	.content .classInGreatDemands table tr td a img:hover{
+      width:250px;
+  	}
+    .content .classInGreatDemands table tr td a img{
+      width: 225px;
+      transition: width 0.5s;
+      -webkit-transition: width  0.5s;
+    }

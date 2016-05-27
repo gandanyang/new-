@@ -1,0 +1,244 @@
+@charset 'utf-8'
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft Yahei","宋体";
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	background-color: #c7000b;
+	width: 100%;
+	height: 35px;
+    line-height: 34px;
+}
+.nav .navlink{
+	display: block;
+	height: 100%;
+	width: 660px;
+	margin:0px 340px 0px 350px;
+}
+.nav .navlink li{
+	display: inline-block;
+	
+	float: left;
+	width: 88px;
+	text-align: center;
+	margin-right: 1px;
+	height: 100%;
+
+}
+.nav .navlink li:hover{
+background-color: #ff0000;
+}
+.nav .navlink li a{
+
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.nav .coming{
+	background-color: #c7000b;
+	display: inline-block;
+	list-style: none;
+	float: right;
+	width: 88px;
+	text-align: center;
+	margin-right: 1px;
+	height: 100%;
+	color: #fff;
+	position: relative;
+	top:-35px; 
+	left: -500px;
+}
+.nav .coming a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav .coming:hover{
+background-color: #ff0000;
+
+}
+.bannerleft{
+	display: block;
+	position: relative;
+	left: 350px;
+	height: 368px;
+}
+.bannerleft .doublelink{
+	margin: 0px;
+	padding: 0px;
+}
+.bannerleft .doublelink li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	width: 170px;
+	height: 35px;
+	background-color: #9b908e;
+	border: 1px solid #afafaf;
+}
+.bannerleft .doublelink li a{
+	width:85px;
+	height:34px;
+	margin: 10px auto;
+	color: #FFF;
+	font-size: 15px;
+	text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.bannerleft .doublelink .nav1 .nv i{
+	 background-position: -5px -258px; 
+}
+.bannerleft .doublelink .nav1 .underwear i{
+	 background-position: -68px -258px;
+}
+.bannerleft .doublelink .nav2 .nan i{
+	 background-position: -5px -287px; 
+}
+.bannerleft .doublelink .nav2 .shoe i{
+	 background-position: -68px -287px;
+}
+.bannerleft .doublelink .nav3 .er i{
+	 background-position: -5px -315px; 
+}
+.bannerleft .doublelink .nav3 .mombaby i{
+	 background-position: -68px -315px;
+}
+.bannerleft .doublelink .nav4 .jia i{
+	 background-position: -5px -343px; 
+}
+.bannerleft .doublelink .nav4 .jujia i{
+	 background-position: -68px -343px;
+}
+.bannerleft .doublelink .nav5 .food i{
+	 background-position: -5px -371px; 
+}
+.bannerleft .doublelink .nav5 .wenti i{
+	 background-position: -68px -371px;
+}
+.bannerleft .doublelink .nav6 .jiadian i{
+	 background-position: -5px -399px; 
+}
+.bannerleft .doublelink .nav6 .digital i{
+	 background-position: -68px -399px;
+}
+.bannerleft .doublelink .nav7 .bag i{
+	 background-position: -5px -427px; 
+}
+.bannerleft .doublelink .nav7 .shi i{
+	 background-position: -68px -427px;
+}
+.bannerleft .doublelink .nav8 .zhuang i{
+	 background-position: -5px -455px; 
+}
+.bannerleft .doublelink .nav8 .zhong i{
+	 background-position: -68px -455px;
+}
+.bannerleft .doublelink li a i{
+	font-style: normal;
+	width: 18px;
+    height: 23px;
+	background:url(../images8/shouye_new_img.png) no-repeat;
+    float: left;
+    margin: 1px 4px 15px 14px;
+}
+.bannerleft .doublelink li a:hover{
+	text-decoration: underline;
+}
+.bannerleft .triblelink{
+	margin: 0px;
+	padding: 0px;
+}
+.bannerleft .triblelink li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	border: 1px solid #afafaf;
+	width: 170px;
+	height: 34px;
+	background-color: #756363;
+}
+.bannerleft .triblelink li a{
+	width:56px;
+	height:34px;
+	margin:0px;
+	padding: 0px;
+	color: #FFF;
+	text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 8px;
+}
+.bannerleft .triblelink li a:hover{
+	text-decoration: underline;
+}
+.bannerleft .firstfloat{
+	height: 100%;
+	position: relative;
+	top: -370px;
+	left: 172px;
+	width: 385px;
+	float: left;
+	border: 1px solid #9b908e;
+	display: block;
+}
+.bannerleft .firstfloat .firstpop-left{
+	height: 100%;
+	width: 224px;
+	float: left;
+	position: relative;
+}
+.bannerleft .firstfloat .firstpop-left dl{
+	margin: 0px 1px 5px 5px;
+	display: block;
+}
+.bannerleft .firstfloat .firstpop-left dl dt{
+	display: block;
+	width: 196px;
+	height: 25px;
+	padding-left: 5px;
+	text-align: left;
+	float: left;
+	margin-top: 18px;
+	border-bottom: 1px solid #9b908e;
+}
+.bannerleft .firstfloat .firstpop-left dl dt a{
+	text-align: left;
+	color: #333;
+	font-size: 14px;
+}
+.bannerleft .firstfloat .firstpop-left dl dd{
+	display: inline-block;
+	float: left;
+    width: auto;
+    height: 12px;
+    margin: 12px 14px 9px 0px;
+    border: none;
+    line-height: 12px;
+}
+.bannerleft .firstfloat .firstpop-left dl dd a{
+	display: inline-block;
+	text-align: left;
+	font-size: 12px;
+	color: #333;
+}
+.bannerleft .firstfloat .firstpop-left a:hover{
+	text-decoration: underline;
+	color: #ec1611;
+}
+.bannerleft .firstfloat .firstpop-right ul li a img{
+	margin-bottom:9px;
+	margin-left: 5px;
+}
