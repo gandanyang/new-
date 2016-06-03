@@ -1,0 +1,264 @@
+body{
+	height: 100%;
+	width: 100%
+	margin:0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "Microsoft Yahei",Arial;
+}
+li{
+	list-style: none;
+	display: block;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+nav{
+	border-bottom: 2px solid #f00;
+}
+nav ul{
+	display: block;
+	width: 1010px;
+	height: 50px;
+	margin: 0px auto 0px 309px;
+}
+nav ul li{
+	background-color: #fff;
+/*	border-bottom: 2px solid #f00;*/
+	display: block;
+	float: left;
+	height: 48px;
+	margin: 2px auto;
+}
+nav ul li a{
+	padding: 5px 10px;
+	display: block;
+	text-align: center;
+	font-size:16px; 
+	color: #000;
+	margin: 0px auto;
+	height: 40px;
+	line-height: 40px;
+}
+nav ul li a:hover{
+	color: #f00;
+}
+nav ul .all-catalog{
+	width: 210px;
+	height: 40px;
+	background-color: #B1191A;
+}
+nav ul .all-catalog a{
+	width: 190px;
+	height: 40px;
+	background-color: #B1191A;
+	font-size: 15px;
+	color:#fff;
+	line-height: 40px;
+}
+main{
+	padding: 0px 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images/background.jpg);
+	background-position: center;
+}
+main aside{
+	padding: 0px 108px;
+	width: 210px;
+	display: block;
+}
+main aside .catalog .left-nav{
+	/*overflow: hidden;*/
+	display: block;
+	width: 210px;
+	height:600px;
+	padding-top:0;
+	margin: 0 0 0 200px;
+}
+main aside .catalog .left-nav li{
+	width: 210px;
+	height: 30px;
+	display: block;
+	/*overflow: hidden;*/
+	background-color: #b61d1d;
+	position: relative;
+}
+main aside .catalog .left-nav li:hover{
+	background-color: #fff;
+}
+main aside .catalog .left-nav li a{
+	width: 190px;
+	height: 30px;
+	text-align:center;
+	float: left;
+	line-height: 30px;
+	color: #fff;
+	display: block;
+	font-size: 15px;
+	margin: 0 auto;	
+	padding: 0 0;
+}
+main aside .catalog .left-nav li span{
+	line-height: 30px;
+	height: 30px;
+	float: right;
+	color: #fff;
+	display: block;
+	width: 20px;
+	font-size: 20px;
+}
+main aside .catalog .left-nav .home-elec{
+	width: 210px;
+	height: 31px;
+	margin: 0;
+	display: block;
+	overflow: hidden;
+}
+main aside .catalog .left-nav .home-elec:hover{
+	overflow: visible;
+	background-color: rgba(255,255,255,0.3);
+}
+main aside .catalog .left-nav li:hover a{
+	color: #f00;
+}
+main aside .catalog .left-nav .home-elec .electrical{
+	position: absolute;
+	left: 210px;
+/*	top: 60px;*/
+	display: block;
+	width: 1000px;
+	height: 460px;
+	border: 1px solid #e00;
+	background-color: #fefefe;
+}
+main aside .catalog .left-nav .home-elec .electrical ul{
+	height: 25px;
+	margin: 0 0;
+	padding: 20px 25px;
+	display: block;
+	width: 700px;
+}
+/*main aside .catalog .electrical ul li:selected{
+	background-color: ;
+}*/
+main aside .catalog .left-nav .home-elec .electrical ul li{
+	display: block;
+	height: 25px;
+	width: 95px;
+	float: left;
+	margin-right:5px; 
+	background-color: #5c5251;
+}
+main aside .catalog .left-nav .home-elec .electrical ul li a{
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	width: 65px;
+	height: 24px;
+	margin: 0px 5px;
+	display: inline-block;
+	background-color: #7C7171;
+}
+main aside .catalog .left-nav .home-elec .electrical ul li:hover{
+	background-color: #C81623;
+}
+main aside .catalog .left-nav .home-elec .electrical ul li:hover a{
+	background-color: #C81623;
+}
+main aside .catalog .left-nav .home-elec .electrical ul li:hover span{
+	background-color: #961018;
+}
+main aside .catalog .electrical ul li span{
+	line-height: 25px;
+	font-size: 15px;
+	height: 25px;
+	width: 20px;
+	color: #fff;
+	float: right;
+	text-align: center;
+}
+main aside .catalog .electrical dl{
+	display: none;
+}
+main aside .catalog .left-nav .mobie{
+	width: 210px;
+	height: 31px;
+	margin: 0;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+main aside .catalog .left-nav .mobie:hover{
+	overflow: visible;
+}
+main aside .catalog .left-nav .mobie a{
+	width: 190px;
+	height: 31px;
+	margin: 0;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+main aside .catalog .left-nav .mobie .mobie-communication{
+	position: absolute;
+	left: 210px;
+	top:-31px;
+	display: block;
+	width: 1000px;
+	height: 460px;
+	border: 1px solid #e00;
+	background-color: #fefefe;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul{
+	height: 25px;
+	margin: 0 0;
+	padding: 20px 25px;
+	display: block;
+	width: 700px;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul li{
+	display: block;
+	height: 25px;
+	width: 95px;
+	float: left;
+	margin-right:5px; 
+	background-color: #5c5251;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul li a{
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	width: 65px;
+	height: 24px;
+	margin: 0px 5px;
+	display: inline-block;
+	background-color: #7C7171;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul li:hover{
+	background-color: #C81623;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul li:hover a{
+	background-color: #C81623;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul li:hover span{
+	background-color: #961018;
+}
+main aside .catalog .left-nav .mobie .mobie-communication ul li span{
+	line-height: 25px;
+	font-size: 15px;
+	height: 25px;
+	width: 20px;
+	color: #fff;
+	float: right;
+	text-align: center;
+}
+main aside .catalog .left-nav .mobie .mobie-communication dl{
+	display: none;
+}

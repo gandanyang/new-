@@ -1,0 +1,69 @@
+body{
+	background-color: #abcdef;
+	font-family: "Micrsoft Yahei",Arial;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.fare-area{
+	width: 250px;
+	height: 30px;
+	position: relative;
+}
+.fare-area .phone-fare,.air-ticket,.movie-ticket,.game-card{
+border-top: 2px solid #fff;
+	text-align: center;
+	cursor: pointer
+	width: 62px;
+    height: 28px;
+    line-height: 25px;
+    float: left;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+}
+.fare-area div:hover{
+	border-top: 2px solid #c81623;
+	overflow: visible;
+}
+.fare-area div a{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	width: 61px;
+	border-right: 1px solid #fff;
+    height: 28px;
+    line-height: 25px;
+    float: left;
+    background-color: #fff;
+}
+.fare-area div div img{
+	width: 250px;
+}
+.fare-area .phone-fare div{
+	position: absolute;
+	top: 28px;
+	z-index:1;
+}
+.fare-area .air-ticket div{
+	position: absolute;
+	top: 28px;
+	left: -60px;
+	z-index:2;
+}
+.fare-area .movie-ticket div{
+	position: absolute;
+	top: 28px;
+	left: -120px;
+	z-index:3;
+}
+.fare-area .game-card div{
+	position: absolute;
+	top: 28px;
+	left: -180px;
+	z-index:4;
+}
+
