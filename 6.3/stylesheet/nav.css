@@ -1,0 +1,268 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "Micrpsoft Yahei",Arial;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration: underline;
+}
+nav{
+	margin: 0px auto;
+	width: 100%;
+	height: 32px;
+	display: block;
+	background-color: #f2f2f2;
+}
+nav .nav-bar{
+	width: 90px;
+	height: 32px;
+    display: block;
+    border: solid #f2f2f2;
+    border-width: 0 1px;
+    position: absolute;
+    left: 70%;
+    background-color: #fff;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+nav .nav-bar:hover{
+	overflow: visible;
+	background-color: #fff;
+}
+
+nav .nav-bar .nav-icon{
+	display: block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background: url(../images/icon.jpg);
+	line-height: 32px;
+	float: left;
+	margin: 6px 0 6px 6px;
+	background-repeat: no-repeat;
+	background-color: #f2f2f2;
+}
+nav .nav-bar a{
+	display: inline-block;
+	color: #999;
+	height: 17px;
+	width: 48px;
+	line-height: 32px;
+	float: left;
+	margin-left: 6px;
+	text-align: center;
+}
+nav .nav-bar .emptyblock{
+	position: relative;
+	top: 20px;
+	display: block;
+	float: left;
+	width: 48px;
+	height: 5px;
+	color: #fff;
+	background-color: #fff;
+}
+nav .nav-bar .nav-content{
+	display: block;
+	width: 1198px;
+	padding: 25px 0;
+	border-width: 0 1px 1px;
+    right: 0;
+    top: 32px;
+    left: auto;
+    border: solid #eee;
+    position: absolute;
+    line-height: 1.4;
+}
+nav .nav-bar .nav-content dl dd a:hover {
+	text-decoration: underline;
+}
+nav .nav-bar .nav-content .hot{
+	width: 295px;
+	padding-left: 20px;
+    overflow: hidden;
+    height: 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-right: 1px solid #eee;
+    border-radius: 4px;
+}
+nav .nav-bar .nav-content .hot dt{
+	color: #f56a00;
+	display: block;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 16px;
+}
+nav .nav-bar .nav-content .hot dd{
+	display: inline-block;
+	width: 60px;
+    float: left;
+    margin-left: 20px;
+    padding: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+nav .nav-bar .nav-content .hot dd a{
+	color: #999;
+	display: inline-block;
+	width: 60px;
+	height: 17px;
+	font-size: 12px;
+}
+nav .nav-bar .nav-content .market{
+	display: block;
+	width: 375px;
+	height: 200px;
+    border-right: 1px solid #f5f5f5;
+    padding-left: 30px;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+nav .nav-bar .nav-content .market dt{
+	color: #2263d4;
+	display: block;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 16px;
+}
+nav .nav-bar .nav-content .market dd{
+	display: inline-block;
+	width: 60px;
+    float: left;
+    margin-left: 30px;
+    padding: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+nav .nav-bar .nav-content .market dd a{
+	color: #999;
+	display: inline-block;
+	width: 60px;
+	height: 17px;
+	font-size: 12px;
+}
+nav .nav-bar .nav-content .market dd a:hover {
+	text-decoration: underline;
+}
+nav .nav-bar .nav-content .brand{
+	display: block;
+	width: 270px;
+	height: 200px;
+    border-right: 1px solid #f5f5f5;
+    padding-left: 30px;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+nav .nav-bar .nav-content .brand dt{
+	color: #68BE00;
+	display: block;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 16px;
+}
+nav .nav-bar .nav-content .brand dd{
+	display: inline-block;
+	width: 70px;
+    float: left;
+    margin-left: 20px;
+    padding: 5px 0;
+    white-space: nowrap;
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+}
+nav .nav-bar .nav-content .brand dd a{
+	color: #999;
+	display: inline-block;
+	width: 60px;
+	height: 17px;
+	font-size: 12px;
+}
+nav .nav-bar .nav-content .brand{
+	display: block;
+	width: 270px;
+	height: 200px;
+    border-right: 1px solid #f5f5f5;
+    padding-left: 30px;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+nav .nav-bar .nav-content .brand dt{
+	color: #68BE00;
+	display: block;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 16px;
+}
+nav .nav-bar .nav-content .brand dd{
+	display: inline-block;
+	width: 70px;
+    float: left;
+    margin-left: 20px;
+    padding: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+nav .nav-bar .nav-content .brand dd a{
+	color: #999;
+	display: inline-block;
+	width: 60px;
+	height: 17px;
+	font-size: 12px;
+}
+nav .nav-bar .nav-content .brand dd:hover a{
+	text-decoration: underline;
+}
+nav .nav-bar .nav-content .help{
+	display: block;
+	height: 200px;width: 220px;
+    padding-left: 30px;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+nav .nav-bar .nav-content .help dt{
+	color: #000;
+	display: block;
+	text-align: left;
+	margin-left: 40px;
+	font-size: 16px;
+}
+nav .nav-bar .nav-content .help dd{
+	display: inline-block;
+	width: 70px;
+    float: left;
+    margin-left: 50px;
+    padding: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+nav .nav-bar .nav-content .help dd a{
+	color: #999;
+	display: inline-block;
+	width: 60px;
+	height: 17px;
+	font-size: 12px;
+}

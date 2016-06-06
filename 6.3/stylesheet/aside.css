@@ -1,0 +1,158 @@
+@charset 'utf-8'
+html,body,h4,ul,li{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: "Microsoft Yahei",Arial;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+nav{
+	width: 100%;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+}
+nav .nav-bar{
+	width: 100%;
+	height:36px;
+	background-color:#DD2727;
+}
+nav .nav-bar .bar-containner{
+	display: block;
+	margin:0px auto;
+	width: 60%;
+	height: 36px;
+}
+nav .nav-bar .bar-containner li{
+	list-style: none;
+	float: left;
+}
+nav .nav-bar .bar-containner li:hover{
+	background-color: #C60A0A;
+}
+nav .nav-bar .bar-containner .catalog{
+	background-color: #C60A0A;
+	width: 200px;
+}
+nav .nav-bar .bar-containner .catalog i{
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin: 5px;
+	background-image: url(../images/tmicon.jpg);
+}
+nav .nav-bar .bar-containner .tm-supermarket i{
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin: 5px;
+	background-image: url(../images/tmicon1.jpg);
+}
+nav .nav-bar .bar-containner .tm-international i{
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin: 5px;
+	background-image: url(../images/tmicon2.jpg);
+}
+nav .nav-bar .bar-containner li a{
+	color: #fff;
+	margin:0 15px; 
+	display: block;
+	line-height: 36px;
+	height: 36px;
+	text-align:left;
+}
+nav .side-bar{
+	width: 1050px;
+	height: 500px;
+	display: block;
+	margin-left: 398px;
+}
+nav .side-bar ul{
+	width: 200px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	background-color: #EEE7E4;
+}
+nav .side-bar ul:hover{
+	overflow: visible;
+}
+
+nav .side-bar ul li{
+	font-size: 14px;
+	text-align: left;
+	line-height: 31.2px;
+	height: 31.2px;
+	width: 200px;
+	display: block;
+}
+nav .side-bar ul li:hover{
+	overflow: visible;
+	background-color: #fff;
+}
+nav .side-bar ul .side-label1:hover >.label1{
+	display: block;
+}
+nav .side-bar ul .side-label2:hover >.label2{
+	display: block;
+}
+nav .side-bar ul .side-label3:hover >.label3{
+	display: block;
+}
+nav .side-bar ul .side-label4:hover >.label4{
+	display: block;
+}
+nav .side-bar ul .side-label5:hover >.label5{
+	display: block;
+}
+nav .side-bar ul li a{
+	text-align: center;
+	color: #000;
+	font-size: 14px;
+}
+nav .side-bar ul li .label-content{
+	top:0;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	left: 200px;
+	height: 500px;
+	width: 850px;
+}
+nav .side-bar ul li .label-content dl{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+nav .side-bar ul li .label-content dl dt{
+	margin:0;
+	padding: 0;
+	width: 70px;
+	height: 20px;
+	margin: 10px;
+	color: #000;
+	display: block;
+	float: left;
+}
+nav .side-bar ul li .label-content dl dd{
+	margin: 10px;
+	white-space:nowrap;
+	float: left;
+	display: inline-block;
+}
+nav .side-bar ul li .label-content dl dd a{
+	font-size: 13px;
+}
