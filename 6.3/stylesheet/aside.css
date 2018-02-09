@@ -104,18 +104,23 @@ nav .side-bar ul li:hover{
 	background-color: #fff;
 }
 nav .side-bar ul .side-label1:hover >.label1{
+	
 	display: block;
 }
 nav .side-bar ul .side-label2:hover >.label2{
+
 	display: block;
 }
 nav .side-bar ul .side-label3:hover >.label3{
+
 	display: block;
 }
 nav .side-bar ul .side-label4:hover >.label4{
+
 	display: block;
 }
 nav .side-bar ul .side-label5:hover >.label5{
+	
 	display: block;
 }
 nav .side-bar ul li a{
